@@ -207,3 +207,13 @@ figcaption{
         padding: 25px 25px; 
     }
 }
+
+@media screen and (prefers-reduced-motion: reduce){
+  .gif{
+    display: none;
+  }
+
+  .static{
+    display: block;
+  }
+
