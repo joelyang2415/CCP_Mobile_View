@@ -1,3 +1,7 @@
+nav a:hover, nav a:focus{
+    text-decoration: underline;
+  }
+
 .skip a{
     position: absolute;
     top: -40px;
@@ -16,6 +20,7 @@ nav li{
 nav a{
     color: black;
     font-weight: bold; 
+    text-decoration: none;
 }
 
 nav{
@@ -23,4 +28,182 @@ nav{
     padding: 25px 25px; 
     text-align: left;
     ;
+}
+
+ul li a.active-page{
+    text-decoration: underline;
+}
+
+
+:focus{
+    border: 2px solid;
+  }
+
+h1{
+    font-size: 50px;
+    line-height: 1;
+    padding: 50px 0;
+    text-align: left;
+}
+
+h2{
+    font-size: 25px;
+    line-height: 1.5;
+    padding: 25px 25px;
+}
+
+h3{
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 25px 25px; 
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 10px 25px;
+}
+
+li{
+    font-size: 20px;
+    line-height: 1.2;
+    list-style: none;
+}
+
+img{
+    width: 40%;
+    height: auto;
+    padding: 10px 25px;
+}
+
+video{
+    width: 40%;
+    height: auto;
+    padding: 10px 25px;
+}
+
+
+.pimage{
+    width: 80%;
+    height: auto;
+    padding: 10px 25px;
+}
+
+figcaption{
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 10px 25px;
+    display: block;
+}
+
+
+
+@media screen{
+    .container{
+        display: grid;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        grid-template-columns: 45% 45%;
+        grid-gap: 15px;
+        justify-items: center;
+    }
+
+    .box{
+        border: 3px solid rgb(0, 0, 0);
+        border-radius: 15px;
+        box-shadow: 5px 0 0 0 rgb(132, 222, 255);
+    }
+    p{
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 10px 25px;
+    }
+    li{
+        font-size: 15px;
+        padding: 5px 25px;
+    }
+    
+    .gallery img{
+        width: 30%;
+        height: auto;
+        padding: 10px 25px;
+        border: none;
+    }
+    .gallery video{
+        width: 30%;
+        height: auto;
+        padding: 10px 25px;
+        border: none;
+    }
+    span{
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 5px 25px;
+        display: block;
+    }
+    .gallery2 img{
+        width: 80%;
+        height: auto;
+        padding: 10px 25px;
+        border: none;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .container{
+        display: grid;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 15px;
+        justify-items: center;
+    }
+
+    .box{
+        border: 3px solid black;
+        border-radius: 15px;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 1.5;
+        padding: 10px 25px;
+    }
+    li{
+        font-size: 20px;
+        padding: 10px 25px;
+    }
+
+    .gallery img{
+        width: 30%;
+        height: auto;
+        padding: 10px 25px;
+    }
+    .gallery video{
+        width: 30%;
+        height: auto;
+        padding: 10px 25px;
+    }
+    span{
+        font-size: 20px;
+        line-height: 1.5;
+        padding: 10px 25px;
+        display: block;
+    }
+    h2{
+        font-size: 32px;
+        line-height: 1.5;
+        padding: 25px 25px;
+        text-align:justify;
+    }
+    
+    h3{
+        font-size: 24px;
+        line-height: 1.5;
+        padding: 25px 25px; 
+    }
 }
